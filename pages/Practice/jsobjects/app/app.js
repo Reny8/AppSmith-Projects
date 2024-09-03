@@ -14,6 +14,6 @@ export default {
 	},
 
 	deleteTodo(id) {
-		data.todos.pop(data.todos[id])
+		data.todos.splice(id, 1)
 	}
 }

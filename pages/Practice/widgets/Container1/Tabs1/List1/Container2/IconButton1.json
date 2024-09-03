@@ -7,8 +7,16 @@
   "buttonVariant": "TERTIARY",
   "dynamicBindingPathList": [],
   "dynamicHeight": "FIXED",
-  "dynamicPropertyPathList": [],
-  "dynamicTriggerPathList": [],
+  "dynamicPropertyPathList": [
+    {
+      "key": "onClick"
+    }
+  ],
+  "dynamicTriggerPathList": [
+    {
+      "key": "onClick"
+    }
+  ],
   "iconName": "edit",
   "isDisabled": false,
   "isLoading": false,
@@ -21,6 +29,7 @@
   "mobileRightColumn": 50,
   "mobileTopRow": 0,
   "needsErrorInfo": false,
+  "onClick": "{{console.log(\"hi\")}}",
   "parentColumnSpace": 5.78125,
   "parentId": "mghtc3i8nh",
   "parentRowSpace": 10,

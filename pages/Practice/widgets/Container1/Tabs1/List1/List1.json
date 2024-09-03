@@ -7,8 +7,8 @@
     "metaWidgetId"
   ],
   "animateLoading": true,
-  "backgroundColor": "transparent",
-  "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+  "backgroundColor": "#ffffff",
+  "borderRadius": "0",
   "bottomRow": 67,
   "boxShadow": "none",
   "children": [
@@ -76,9 +76,6 @@
       "key": "accentColor"
     },
     {
-      "key": "borderRadius"
-    },
-    {
       "key": "listData"
     }
   ],
@@ -88,6 +85,9 @@
     },
     {
       "key": "primaryKeys"
+    },
+    {
+      "key": "borderRadius"
     }
   ],
   "dynamicTriggerPathList": [
