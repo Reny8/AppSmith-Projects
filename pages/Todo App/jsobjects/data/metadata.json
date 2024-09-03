@@ -9,7 +9,7 @@
     "variables": [
       {
         "name": "todos",
-        "value": "appsmith.store.todos || data.dummyTodos"
+        "value": "undefined"
       },
       {
         "name": "dummyTodos",

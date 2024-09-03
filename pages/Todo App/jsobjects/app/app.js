@@ -1,4 +1,7 @@
 export default {
+	init() {
+		data.todos = appsmith.store.todos || data.dummyTodos
+	},
 	addTodo(title) {
 		let todo = {
 			title: title,
