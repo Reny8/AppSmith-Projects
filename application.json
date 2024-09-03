@@ -17,8 +17,12 @@
   "icon": "chat",
   "pages": [
     {
-      "id": "Page1",
+      "id": "Completed Project",
       "isDefault": true
+    },
+    {
+      "id": "Practice",
+      "isDefault": false
     }
   ],
   "unpublishedAppLayout": {
