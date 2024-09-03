@@ -1,9 +1,9 @@
 {
   "gitSyncId": "66d7186f56a3892afd66a39d_54a70a73-4e38-435a-8881-2a65a6f5f76f",
-  "id": "Practice_data",
+  "id": "Todo App_data",
   "unpublishedCollection": {
     "name": "data",
-    "pageId": "Practice",
+    "pageId": "Todo App",
     "pluginId": "js-plugin",
     "pluginType": "JS",
     "variables": [
