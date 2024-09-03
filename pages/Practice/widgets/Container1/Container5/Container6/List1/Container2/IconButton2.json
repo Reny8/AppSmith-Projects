@@ -31,7 +31,7 @@
   "needsErrorInfo": false,
   "onClick": "{{app.deleteTodo(currentIndex)}}",
   "parentColumnSpace": 5.78125,
-  "parentId": "mghtc3i8nh",
+  "parentId": "2dyl9rnp23",
   "parentRowSpace": 10,
   "renderMode": "CANVAS",
   "responsiveBehavior": "hug",
@@ -39,6 +39,6 @@
   "topRow": 0,
   "type": "ICON_BUTTON_WIDGET",
   "version": 1,
-  "widgetId": "gv6ayor0jv",
+  "widgetId": "s5fi11k7ib",
   "widgetName": "IconButton2"
 }

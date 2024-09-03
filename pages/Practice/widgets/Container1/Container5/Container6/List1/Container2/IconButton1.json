@@ -7,11 +7,7 @@
   "buttonVariant": "TERTIARY",
   "dynamicBindingPathList": [],
   "dynamicHeight": "FIXED",
-  "dynamicPropertyPathList": [
-    {
-      "key": "onClick"
-    }
-  ],
+  "dynamicPropertyPathList": [],
   "dynamicTriggerPathList": [
     {
       "key": "onClick"
@@ -29,9 +25,9 @@
   "mobileRightColumn": 50,
   "mobileTopRow": 0,
   "needsErrorInfo": false,
-  "onClick": "{{console.log(\"hi\")}}",
+  "onClick": "{{showModal(Modal1.name).then(() => {\n  app.setActiveTodo(currentIndex, currentItem);\n}).catch(() => {\n  closeModal(Modal1.name);\n});}}",
   "parentColumnSpace": 5.78125,
-  "parentId": "mghtc3i8nh",
+  "parentId": "2dyl9rnp23",
   "parentRowSpace": 10,
   "renderMode": "CANVAS",
   "responsiveBehavior": "hug",
@@ -39,6 +35,6 @@
   "topRow": 0,
   "type": "ICON_BUTTON_WIDGET",
   "version": 1,
-  "widgetId": "d442pl6vw5",
+  "widgetId": "l17923q7i0",
   "widgetName": "IconButton1"
 }

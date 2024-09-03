@@ -7,10 +7,17 @@ export default {
 		data.todos.push(todo)
 	},
 
-	updateTodo(id, todo) {
+	async updateTodo(id, todo) {
 		data.todos[id] = {
-			...data.todos[id], ...todo
+			...data.todos[id], ...todo, 
 		}
+		await closeModal(Modal1.name)
+		this.setActiveTodo(undefined, undefined)
+	},
+
+	setActiveTodo(index, todo) {
+		data.activeIndex = index
+		data.activeTodo = todo
 	},
 
 	deleteTodo(id) {
