@@ -15,15 +15,23 @@
     },
     {
       "key": "text"
+    },
+    {
+      "key": "textColor"
     }
   ],
   "dynamicHeight": "FIXED",
+  "dynamicPropertyPathList": [
+    {
+      "key": "textColor"
+    }
+  ],
   "dynamicTriggerPathList": [],
   "fontFamily": "{{appsmith.theme.fontFamily.appFont}}",
-  "fontSize": "1rem",
+  "fontSize": "0.875rem",
   "fontStyle": "",
   "isLoading": false,
-  "isVisible": true,
+  "isVisible": false,
   "key": "ct683a7cgv",
   "leftColumn": 0,
   "maxDynamicHeight": 9000,
@@ -40,11 +48,11 @@
   "parentRowSpace": 10,
   "renderMode": "CANVAS",
   "responsiveBehavior": "fill",
-  "rightColumn": 51,
+  "rightColumn": 44,
   "shouldTruncate": false,
   "text": "{{ currentItem.title }}",
   "textAlign": "LEFT",
-  "textColor": "#231F20",
+  "textColor": "{{currentItem.completed ? '#aaa; text-decoration:line-through' : '#231F20'}}",
   "topRow": 0,
   "truncateButtonColor": "{{appsmith.theme.colors.primaryColor}}",
   "type": "TEXT_WIDGET",

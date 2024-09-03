@@ -1,7 +1,6 @@
 export default {
 	addTodo(title) {
 		let todo = {
-			id: data.todos.length + 1,
 			title: title,
 			completed: false
 		}
@@ -12,5 +11,9 @@ export default {
 		data.todos[id] = {
 			...data.todos[id], ...todo
 		}
+	},
+
+	deleteTodo(id) {
+		data.todos.pop(data.todos[id])
 	}
 }

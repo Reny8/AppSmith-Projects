@@ -7,19 +7,29 @@
   "buttonVariant": "TERTIARY",
   "dynamicBindingPathList": [],
   "dynamicHeight": "FIXED",
-  "dynamicTriggerPathList": [],
+  "dynamicPropertyPathList": [
+    {
+      "key": "onClick"
+    }
+  ],
+  "dynamicTriggerPathList": [
+    {
+      "key": "onClick"
+    }
+  ],
   "iconName": "trash",
   "isDisabled": false,
   "isLoading": false,
   "isVisible": true,
   "key": "m667fslbg1",
-  "leftColumn": 58,
+  "leftColumn": 54,
   "minWidth": 50,
   "mobileBottomRow": 4,
   "mobileLeftColumn": 59,
   "mobileRightColumn": 63,
   "mobileTopRow": 0,
   "needsErrorInfo": false,
+  "onClick": "{{app.deleteTodo(currentItem.id)}}",
   "parentColumnSpace": 5.78125,
   "parentId": "mghtc3i8nh",
   "parentRowSpace": 10,

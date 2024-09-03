@@ -82,7 +82,19 @@
       "key": "listData"
     }
   ],
-  "dynamicTriggerPathList": [],
+  "dynamicPropertyPathList": [
+    {
+      "key": "onItemClick"
+    },
+    {
+      "key": "primaryKeys"
+    }
+  ],
+  "dynamicTriggerPathList": [
+    {
+      "key": "onItemClick"
+    }
+  ],
   "enhancements": true,
   "flexVerticalAlignment": "start",
   "gridType": "vertical",
@@ -103,11 +115,12 @@
   "mobileRightColumn": 23,
   "mobileTopRow": 2,
   "needsErrorInfo": false,
+  "onItemClick": "{{app.updateTodo(currentIndex, {completed: !currentItem.completed});}}",
   "pageSize": 10,
   "parentColumnSpace": 6.21875,
   "parentId": "mgzakxd1v7",
   "parentRowSpace": 10,
-  "primaryKeys": "{{List1.listData.map((currentItem, currentIndex) => currentItem[\"id\"] )}}",
+  "primaryKeys": "{{List1.listData.map((currentItem, currentIndex) => currentIndex )}}",
   "renderMode": "CANVAS",
   "requiresFlatWidgetChildren": true,
   "responsiveBehavior": "fill",

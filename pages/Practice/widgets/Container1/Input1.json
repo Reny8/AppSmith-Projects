@@ -3,7 +3,7 @@
   "animateLoading": true,
   "autoFocus": false,
   "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
-  "bottomRow": 18,
+  "bottomRow": 17,
   "boxShadow": "none",
   "defaultText": "",
   "dynamicBindingPathList": [
@@ -15,7 +15,11 @@
     }
   ],
   "dynamicHeight": "AUTO_HEIGHT",
-  "dynamicTriggerPathList": [],
+  "dynamicTriggerPathList": [
+    {
+      "key": "onSubmit"
+    }
+  ],
   "iconAlign": "left",
   "inputType": "TEXT",
   "isDisabled": false,
@@ -40,8 +44,9 @@
   "mobileRightColumn": 10,
   "mobileTopRow": 11,
   "needsErrorInfo": false,
-  "originalBottomRow": 18,
-  "originalTopRow": 11,
+  "onSubmit": "{{app.addTodo(Input1.text);}}",
+  "originalBottomRow": 17,
+  "originalTopRow": 10,
   "parentColumnSpace": 6.53125,
   "parentId": "skey3axqko",
   "parentRowSpace": 10,
@@ -52,7 +57,7 @@
   "rightColumn": 64,
   "shouldScrollContents": true,
   "showStepArrows": false,
-  "topRow": 11,
+  "topRow": 10,
   "type": "INPUT_WIDGET_V2",
   "version": 2,
   "widgetId": "ae41e63t5x",
