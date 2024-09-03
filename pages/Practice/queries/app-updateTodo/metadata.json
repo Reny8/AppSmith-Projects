@@ -1,6 +1,6 @@
 {
-  "gitSyncId": "66d7186f56a3892afd66a39d_e6891ff1-3cdc-44d6-8e53-363028cade4f",
-  "id": "Practice_app.addTodo",
+  "gitSyncId": "66d7186f56a3892afd66a39d_29c9ddd9-dc07-4d2b-8628-ec36abf7d3ce",
+  "id": "Practice_app.updateTodo",
   "pluginId": "js-plugin",
   "pluginType": "JS",
   "unpublishedAction": {
@@ -8,7 +8,10 @@
       "encodeParamsToggle": true,
       "jsArguments": [
         {
-          "name": "title"
+          "name": "id"
+        },
+        {
+          "name": "todo"
         }
       ],
       "paginationType": "NONE",
@@ -27,8 +30,8 @@
       }
     ],
     "executeOnLoad": false,
-    "fullyQualifiedName": "app.addTodo",
-    "name": "addTodo",
+    "fullyQualifiedName": "app.updateTodo",
+    "name": "updateTodo",
     "pageId": "Practice",
     "userSetOnLoad": false
   }
