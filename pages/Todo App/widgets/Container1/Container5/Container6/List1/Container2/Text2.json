@@ -32,7 +32,7 @@
   "fontSize": "0.875rem",
   "fontStyle": "",
   "isLoading": false,
-  "isVisible": false,
+  "isVisible": true,
   "key": "ct683a7cgv",
   "leftColumn": 0,
   "maxDynamicHeight": 9000,
